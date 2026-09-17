@@ -145,15 +145,15 @@ export function Sections() {
 
         <div className="mt-10 max-w-2xl divide-y divide-line border-t border-line">
           {FOCUS.map((f) => (
-            <div key={f.title} className="flex items-center justify-between gap-6 py-5">
-              <div>
+            <div key={f.title} className="flex items-start justify-between gap-4 py-5 sm:gap-6">
+              <div className="min-w-0 flex-1">
                 <h3 className="font-display text-lg text-mist sm:text-xl">
                   {f.title}
                   <span className="ml-2 text-sm text-mist-soft">{f.jp}</span>
                 </h3>
                 <p className="mt-1 max-w-sm text-sm leading-relaxed text-mist-soft">{f.body}</p>
               </div>
-              <p className="shrink-0 font-mono text-[11px] tracking-[0.2em] text-accent uppercase">{f.tag}</p>
+              <p className="shrink-0 pt-1 font-mono text-[11px] tracking-[0.2em] text-accent uppercase">{f.tag}</p>
             </div>
           ))}
         </div>
