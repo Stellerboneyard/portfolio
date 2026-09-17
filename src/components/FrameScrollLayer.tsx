@@ -2,9 +2,10 @@
 
 import { useEffect, useRef } from "react";
 import { sceneState } from "@/lib/sceneState";
+import { BASE_PATH } from "@/lib/basePath";
 
 const FRAME_COUNT = 90;
-const frameSrc = (i: number) => `/frames/f-${String(i + 1).padStart(3, "0")}.jpg`;
+const frameSrc = (i: number) => `${BASE_PATH}/frames/f-${String(i + 1).padStart(3, "0")}.jpg`;
 
 // Scroll-scrubbed video, done as a preloaded image sequence instead of
 // seeking an actual <video> element. Setting video.currentTime on every
