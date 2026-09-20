@@ -49,9 +49,9 @@ const FOCUS = [
     tag: "Maintenance",
   },
   {
-    title: "RBI Grade B Prep",
-    jp: "ESI · FM",
-    body: "Foundation phase — economics, finance, English writing, built for the long run.",
+    title: "AI/ML Foundations",
+    jp: "Python",
+    body: "Math fundamentals first, then applied projects — not a course-certificate sprint.",
     tag: "Primary",
   },
 ];
@@ -139,8 +139,8 @@ export function Sections() {
           Two tracks, one discipline.
         </h2>
         <p className="mt-4 max-w-md text-sm leading-relaxed text-mist-soft">
-          RBI Grade B prep is the primary track right now. Engineering runs alongside it —
-          tiered deliberately, not chased at equal intensity.
+          DSA in C++ and Python/AI-ML are the primary tracks right now — going deep on fewer
+          things rather than spreading thin.
         </p>
 
         <div className="mt-10 max-w-2xl divide-y divide-line border-t border-line">
@@ -165,7 +165,7 @@ export function Sections() {
           The build doesn&apos;t stop here.
         </h2>
         <p className="mt-4 max-w-md text-sm leading-relaxed text-mist-soft">
-          Open to internships, collaborations, or just talking shop about DSA, RBI prep, or the
+          Open to internships, collaborations, or just talking shop about DSA, AI/ML, or the
           next thing to build.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
